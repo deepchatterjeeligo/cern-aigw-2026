@@ -1,0 +1,15 @@
+# Files created by editing, developing, running tests, building docs
+.DS_Store
+.*.swp
+*~
+*.egg-info
+*.pyc
+__pycache__
+.eggs
+.cache
+.vscode
+.ipynb_checkpoints
+# Generated virtualenv
+.venv
+# data files
+data/
