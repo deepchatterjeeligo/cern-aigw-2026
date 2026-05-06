@@ -9,7 +9,8 @@ Dependency requirements are specified in `requirements.txt`. You can use
 ```bash
 $ uv venv --python=3.12 && uv pip install -r requirements.txt
 ```
-Start the `jupyter-notebook` using the `uv` entrypoint:
+Start the `jupyter-notebook` using the `uv` entrypoint, or if using vscode, select
+the python interpreter from the created virtualenv.
 ```bash
 $ uv run jupyter-notebook
 ```
